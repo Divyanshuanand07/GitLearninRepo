@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT</title>
+</head>
+<body>
+    <form action = ""> 
+        <h1> Payment Gateway!! </h1>
+    <hr>
+    <h2>Contact information</h2>
+    <p>Name:* <input type="text" name = "name" required> </p>
+    <fieldset>
+        <legend>GENDER* </legend>
+        <p>
+            Male: <input type="radio" name= "gender" id= "Male" required >
+            Female: <input type="radio" name= "gender" id= "Female" required>
+            Other: <input type="radio" name= "gender" id= "Other" required> 
+        </p>
+    </fieldset>
+    <p> Address: <textarea name= "address" id= "address" cols= "100" rows= "10"></textarea></p>
+    <p>Mail: <input type="email" name= "Email" id= "Email" > </p>
+    <p>Pincode:*  <input type= "text" name= "Pincode" id= "pincode"> </p>
+    <hr>
+    <h3>CARD INFORMATION </h3>
+    <p> Card Type:*
+        <select name= "Card_type" id= "Card_type" required>
+             <option value="">--Select a Card Type--</option>
+             <option value="visa"> Visa</option>
+            <option value="Mater Card"> Mater Card </option>
+            <option value="Paytm"> Paytm</option>
+            </select> 
+    </p>
+    <p>Name on card:* <input type="text" name="name on card" id= "name on card" required>  </p>
+    <p> Card number: <input type="text" name= "card number" id="card number" required> </p>
+    <p> CVV: <input type="password" name= "CVV" id="CVV" required>  </p>
+    <p> Expiration Date: <input type="date" name="Date" id= "Date" required>  </p>
+    <p>
+        <input type="submit" value="Pay Now">
+    </p>
+    
+    </form> 
+
+</body>
+</html>
